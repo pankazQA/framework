@@ -1,4 +1,4 @@
-package com.practic;
+ package com.practic;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -26,6 +26,7 @@ System.out.println(fresh);
 
 List<WebElement>list=all.getOptions();
 System.out.println(list.size());
+//hello
 
 for(int i=0;i<list.size();i++) {
 System.out.println(list.get(i).getText());
